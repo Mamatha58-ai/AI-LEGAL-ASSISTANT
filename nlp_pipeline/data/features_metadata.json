@@ -1,0 +1,56 @@
+{
+  "pipeline_version": "1.0.0",
+  "tfidf_vocabulary_size": 500,
+  "top_features_sample": [
+    "1.5",
+    "22-karat",
+    "36-month",
+    "36-month non-terminable",
+    "5th",
+    "5th english",
+    "7-day",
+    "7-day sms",
+    "9.50",
+    "9.50 per",
+    "absolute",
+    "account",
+    "account non-performing",
+    "account within",
+    "accrued",
+    "accrued interest",
+    "acknowledges",
+    "act",
+    "against",
+    "against any",
+    "agreed",
+    "agreed borrower",
+    "agreed lessee",
+    "all",
+    "all cases",
+    "all statutory",
+    "along",
+    "annum",
+    "any",
+    "any excess"
+  ],
+  "readability_metrics_included": [
+    "read_word_count",
+    "read_sentence_count",
+    "read_avg_sentence_length",
+    "read_complex_word_ratio",
+    "read_flesch_reading_ease",
+    "read_flesch_kincaid_grade"
+  ],
+  "risk_signals_included": [
+    "high_risk_signals",
+    "medium_risk_signals",
+    "risk_indicator_score",
+    "detected_triggers"
+  ],
+  "extracted_entity_fields": [
+    "extracted_amounts",
+    "extracted_percentages",
+    "extracted_dates",
+    "extracted_acts"
+  ]
+}

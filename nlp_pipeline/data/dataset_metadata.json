@@ -1,0 +1,70 @@
+{
+  "dataset_name": "Indian Legal NLP Academic Dataset (LexAI)",
+  "version": "1.0.0",
+  "total_documents": 117,
+  "total_clauses": 438,
+  "document_types": [
+    "House Property",
+    "Car Documents",
+    "Bank Loan Agreement",
+    "Gold Loan Agreement"
+  ],
+  "document_type_distribution": {
+    "House Property": 36,
+    "Car Documents": 27,
+    "Bank Loan Agreement": 27,
+    "Gold Loan Agreement": 27
+  },
+  "risk_label_distribution": {
+    "Low": 168,
+    "High": 144,
+    "Medium": 126
+  },
+  "clause_types": [
+    "Payment & Rent",
+    "Maintenance & Escalation",
+    "Termination & Forfeiture",
+    "Indemnity & Liability",
+    "Payment & Transfer",
+    "Title & Encumbrance",
+    "Possession & Handover",
+    "Arbitration & Jurisdiction",
+    "Payment & Penalties",
+    "Timeline & Possession",
+    "Penalties & Timelines",
+    "RC Transfer & Liabilities",
+    "Warranty & Condition",
+    "Vehicle Repossession & Hypothecation",
+    "Prepayment & Penalties",
+    "Maintenance & Usage",
+    "Maintenance & Insurance",
+    "Payment & Interest Defaults",
+    "Security & Enforcement",
+    "Guarantee & Indemnity",
+    "Penal Charges & Recovery",
+    "Pledge & Collateral Margin Call",
+    "Payment & Subvention Rules",
+    "Payment & Fees",
+    "Corporate Covenants"
+  ],
+  "columns_document_dataset": [
+    "doc_id",
+    "document_type",
+    "title",
+    "parties",
+    "date",
+    "amount",
+    "clause_type",
+    "risk_label",
+    "summary_text",
+    "full_text"
+  ],
+  "columns_clause_dataset": [
+    "clause_id",
+    "document_type",
+    "clause_title",
+    "clause_type",
+    "risk_label",
+    "clause_text"
+  ]
+}
